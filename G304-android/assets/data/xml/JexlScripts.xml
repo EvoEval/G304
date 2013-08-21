@@ -1,0 +1,53 @@
+<jexl>
+	<function name="putLeastAvailable">
+		var maxCards = tools.getMaxUsableCards(usable,allCards);
+		var choice = tools.filterCards(maxCards,hash.get("minAvailableType"));
+		if(size(choice) gt 0){
+			return tools.getAtIndex(usable,0);
+		}else if(size(maxCards) gt  0){
+			return tools.getAtIndex(maxCards,0);
+		}else{
+			return tools.getAtIndex(usable,0);
+		}
+	</function>
+	<function name="putMax">
+		var maxCards = tools.getMaxUsableCards(usable,allCards);
+		
+		if(size(maxCards) gt  0){
+			return tools.getAtIndex(maxCards,0);
+		}else{
+			return tools.getAtIndex(usable,0);
+		}
+		
+	</function>	
+	<function name="putLeastTrump">
+		return tools.getMinCard(usable,tools.getCardType(tools.getTrumpCard()),"true");
+	</function>		
+	<function name="putSmallest">
+		return tools.getMinCard(usable,"","false");
+	</function>	
+	<function name="putBetterTrump">
+		var win = tools.getWinnableCard(usable,botId);
+		if(win.isEmpty()){
+			return tools.getMinCard(usable,"","false");
+		}else{
+			return win;
+		}
+	</function>
+	<function name="startup">
+		var i = new("java.lang.Integer", M.getCurrentHandCards().size());
+		var up = (i+1==5)?1:i+1;		
+		hash.put("up",up.toString());		
+		
+		var maxCards = tools.getMaxUsableCards(usable,allCards);
+		hash.put("hasMaxCards",(maxCards.size() gt  0)?"true":"false");
+		
+		hash.put("minAvailableType",tools.getMinAvailableCardType(usable));
+		hash.put("isTrumpOpen",tools.isTrumpOpen());
+		hash.put("hasTrumpCards",tools.hasTrumpCards(usable));
+		hash.put("hasFirstType",tools.hasFirstType(usable));
+		hash.put("isEnemySoFarWinning",tools.isEnemySoFarWinning(botId));
+		
+		return "success";
+	</function>		
+</jexl>

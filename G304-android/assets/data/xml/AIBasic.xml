@@ -1,0 +1,121 @@
+<AI>
+	<check variable="up">
+		<validate value="1">
+			<check variable="hasMaxCards">
+				<validate value="true">
+					<return out="putLeastAvailable"/>
+				</validate>
+				<validate value="false">
+					<return out="putSmallest"/>
+				</validate>
+			</check>
+		</validate>
+		<validate value="2">
+			<check variable="hasFirstType">
+				<validate value="true">
+					<check variable="hasMaxCards">
+						<validate value="true">
+							<return out="putMax"/>
+						</validate>
+						<validate value="false">
+							<return out="putSmallest"/>
+						</validate>
+					</check>	
+				</validate>
+				<validate value="false">
+					<check variable="isTrumpOpen">
+						<validate value="true">
+							<check variable="hasTrumpCards">
+								<validate value="true">
+									<return out="putLeastTrump"/>
+								</validate>
+								<validate value="false">
+									<return out="putSmallest"/>
+								</validate>
+							</check>
+						</validate>
+						<validate value="false">
+							<return out="putSmallest"/>
+						</validate>
+					</check>
+				</validate>			
+			</check>			
+		</validate>
+		<validate value="3">
+			<check variable="hasFirstType">
+				<validate value="true">
+					<check variable="isEnemySoFarWinning">
+						<validate value="true">
+							<return out="putSmallest"/>
+						</validate>
+						<validate value="false">
+							<return out="putMax"/>
+						</validate>					
+					</check>
+				</validate>
+				<validate value="false">
+					<check variable="isEnemySoFarWinning">
+						<validate value="true">
+							<check variable="isTrumpOpen">
+								<validate value="true">
+									<check variable="hasTrumpCards">
+										<validate value="true">
+											<return out="putBetterTrump"/>
+										</validate>
+										<validate value="false">
+											<return out="putSmallest"/>
+										</validate>		
+									</check>
+								</validate>
+								<validate value="false">
+									<return out="putSmallest"/>
+								</validate>								
+							</check>
+						</validate>
+						<validate value="false">
+							<return out="putMax"/>
+						</validate>
+					</check>
+				</validate>
+			</check>
+		</validate>
+		<validate value="4">
+			<check variable="hasFirstType">
+				<validate value="true">
+					<check variable="isEnemySoFarWinning">
+						<validate value="true">
+							<return out="putSmallest"/>
+						</validate>
+						<validate value="false">
+							<return out="putMax"/>
+						</validate>					
+					</check>
+				</validate>
+				<validate value="false">
+					<check variable="isEnemySoFarWinning">
+						<validate value="true">
+							<check variable="isTrumpOpen">
+								<validate value="true">
+									<check variable="hasTrumpCards">
+										<validate value="true">
+											<return out="putBetterTrump"/>
+										</validate>
+										<validate value="false">
+											<return out="putSmallest"/>
+										</validate>		
+									</check>
+								</validate>
+								<validate value="false">
+									<return out="putSmallest"/>
+								</validate>								
+							</check>
+						</validate>
+						<validate value="false">
+							<return out="putMax"/>
+						</validate>
+					</check>
+				</validate>
+			</check>
+		</validate>
+	</check>
+</AI>

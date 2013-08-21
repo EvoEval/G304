@@ -1,0 +1,82 @@
+<Language>
+	<Text lang="English" tag="GamesWon" txt="Games won"/>
+	<Text lang="Sinhala" tag="GamesWon" txt="ńŻǞ ǑŴņǸ"/>
+	<Text lang="English" tag="BidWon" txt="Bid won"/>
+	<Text lang="Sinhala" tag="BidWon" txt="ĵƁŲź ǑŴźǸ"/>
+	<Text lang="English" tag="TotalScore" txt="Total score"/>
+	<Text lang="Sinhala" tag="TotalScore" txt="žźƱ ĵŵņŔź"/>
+	<Text lang="English" tag="GamesPlayed" txt="No of games played "/>
+	<Text lang="Sinhala" tag="GamesPlayed" txt="ŵżĮſŭ ŵĵ ńŻǞ ķŔŴ"/>
+	<Text lang="English" tag="HighestBid" txt="Highest bid"/>
+	<Text lang="Sinhala" tag="HighestBid" txt="ŠŶǨž ĵƁŲźų"/>
+	<Text lang="English" tag="HighestScore" txt="Highest score "/>
+	<Text lang="Sinhala" tag="HighestScore" txt="ŠŶǨž ĵŵņŔź"/>
+	<Text lang="English" tag="AverageScore" txt="Average score "/>
+	<Text lang="Sinhala" tag="AverageScore" txt="ŲŭžŭŴőű ĵŵņŔ"/>
+	<Text lang="English" tag="WinPercentage" txt="Win percentage"/>
+	<Text lang="Sinhala" tag="WinPercentage" txt="ŬűķĮƂŔ ŲŭžŭŴőű"/>
+	<Text lang="English" tag="Rank" txt="Rank"/>
+	<Text lang="Sinhala" tag="Rank" txt="ůŢĮŊŔżű"/>
+	<Text lang="English" tag="ID" txt="ID"/>
+	<Text lang="Sinhala" tag="ID" txt="ƀƁŵű"/>
+	<Text lang="English" tag="BidAmount" txt="Bid Amount"/>
+	<Text lang="Sinhala" tag="BidAmount" txt="ĵƁŲź ŶĮžŭŔű"/>
+	<Text lang="English" tag="BidStatus" txt="Bid$Status"/>
+	<Text lang="Sinhala" tag="BidStatus" txt="ĵƁŲź$ńńŊųű"/>	
+	<Text lang="English" tag="Score" txt="Score"/>
+	<Text lang="Sinhala" tag="Score" txt="ĵŵņŔź"/>
+	<Text lang="English" tag="GameStatus" txt="Game$Status"/>
+	<Text lang="Sinhala" tag="GameStatus" txt="ńŻǞ$ńńŊųű"/>
+	<Text lang="English" tag="WiningScore" txt="Wining$Score"/>
+	<Text lang="Sinhala" tag="WiningScore" txt="ŬűķĮƂŔ$ĵŵņŔź"/>
+	<Text lang="English" tag="NoInternetLine1" txt="No internet connection"/>
+	<Text lang="Sinhala" tag="NoInternetLine1" txt="ƀŴŊńǇřŭĵ ŶƂŲźŵǸ"/>
+	<Text lang="English" tag="NoInternetLine2" txt="available"/>
+	<Text lang="Sinhala" tag="NoInternetLine2" txt="ůŴŭžŮń"/>
+	<Text lang="English" tag="Ok" txt="Ok"/>
+	<Text lang="Sinhala" tag="Ok" txt="ƂǨ"/>
+	<Text lang="English" tag="WinningTeam" txt="Winning Team"/>
+	<Text lang="Sinhala" tag="WinningTeam" txt="ŬűķĮƂŔű ŵĵ ŵŔŊšŭűž"/>
+	<Text lang="English" tag="WinningScore" txt="Winning Score"/>
+	<Text lang="Sinhala" tag="WinningScore" txt="ŬűķĮƂŔű ŵĵ ĵŵņŔ ŶĮžŭŔű"/>
+	<Text lang="English" tag="Conected" txt="Conected"/>
+	<Text lang="Sinhala" tag="Conected" txt="ŲǸŷŴŊŸűż"/>
+	<Text lang="English" tag="Waiting" txt="Waiting"/>
+	<Text lang="Sinhala" tag="Waiting" txt="ĸƫŲżǪżŴŊŴ"/>
+	<Text lang="English" tag="ExitLine1" txt="Are you sure you want"/>
+	<Text lang="Sinhala" tag="ExitLine1" txt="ŝŷŰ ŶżŰńŊȃű űŚńņŸŉ"/>
+	<Text lang="English" tag="ExitLine2" txt="to exit G304 ?"/>
+	<Text lang="Sinhala" tag="ExitLine2" txt=""/>
+	<Text lang="English" tag="Yes" txt="Yes"/>
+	<Text lang="Sinhala" tag="Yes" txt="ŝǾ"/>
+	<Text lang="English" tag="No" txt="No"/>
+	<Text lang="Sinhala" tag="No" txt="ŴŮń"/>
+	<Text lang="English" tag="ExitToMainLine1" txt="Are you sure you want"/>
+	<Text lang="Sinhala" tag="ExitToMainLine1" txt="ŝŷŰ ŶĮŘŭŴ ůžŴźųŰ"/>
+	<Text lang="English" tag="ExitToMainLine2" txt="to exit to main menu ?"/>
+	<Text lang="Sinhala" tag="ExitToMainLine2" txt="ŶżŰńŊȃű űŚńņŸŉ"/>
+	<Text lang="English" tag="TrumpOpen" txt="Trump is revealed"/>
+	<Text lang="Sinhala" tag="TrumpOpen" txt="ńņŻŮǸŶź ȃųĪńűż"/>
+	<Text lang="English" tag="Server" txt="Server"/>
+	<Text lang="Sinhala" tag="Server" txt="ůŲŊųŭŸŭűŵ"/>
+	<Text lang="English" tag="Client" txt="Client Count"/>
+	<Text lang="Sinhala" tag="Client" txt="ůŲŊųŭķĮŭƂŵ ķŔŴ"/>
+	<Text lang="English" tag="About" txt="About"/>
+	<Text lang="Sinhala" tag="About" txt="ȃŲŊńŻ"/>
+	<Text lang="English" tag="Skip" txt="Skip"/>
+	<Text lang="Sinhala" tag="Skip" txt="žķƂǨŴŊŴ"/>
+	<Text lang="English" tag="RegisterLine1" txt="you can get registered at"/>
+	<Text lang="Sinhala" tag="RegisterLine1" txt="ĵżűŭŶǑƁǚ Ȃž ŲƅƂŭ"/>
+	<Text lang="English" tag="RegisterLine2" txt="http://www.evoeval.com"/>
+	<Text lang="Sinhala" tag="RegisterLine2" txt="http://www.evoeval.com"/>
+	<Text lang="English" tag="EmailID" txt="Enter Email-ID"/>
+	<Text lang="Sinhala" tag="EmailID" txt="ȃƾźńŊ ĵżŶżŴű ƀŮńņƱ ŵŻŴŊŴ"/>
+	<Text lang="English" tag="Password" txt="Enter Password"/>
+	<Text lang="Sinhala" tag="Password" txt="žźŻŶŸű ƀŮńņƱ ŵŻŴŊŴ"/>
+	<Text lang="English" tag="InvalidLogin" txt="Invalid login information"/>
+	<Text lang="Sinhala" tag="InvalidLogin" txt="ųĵƁķņ ůŴŭųŴ ůńŭŻńņŻŮ"/>
+	<Text lang="English" tag="TotExpPoints" txt="Total Experience Points"/>
+	<Text lang="Sinhala" tag="TotExpPoints" txt="žźǈź ŶŅŶźŻŮȈ ĵŵņŔź"/>
+	<Text lang="English" tag="ExpPoints" txt="Experience$Points"/>
+	<Text lang="Sinhala" tag="ExpPoints" txt="ŶŅŶźŻŮȈ$ĵŵņŔź"/>
+</Language>

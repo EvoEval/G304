@@ -1,0 +1,117 @@
+<Help>
+	<line type="empty" data="-"/>
+	<line type="empty" data="-"/>
+	<line type="image" data="Welcome"/>
+	<line type="empty" data="-"/>
+	<line type="title" data="Introduction"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="304 (Pronounced 'three nought four') is "/>
+	<line type="normal" data="a card game popular in Sri Lanka."/>
+	<line type="normal" data="G304 is an electronic version of "/>
+	<line type="normal" data="the same game and may be played"/>
+	<line type="normal" data="over the internet by four players.  "/>
+	<line type="empty" data="-"/>
+	<line type="title" data="Basic Rules of 304"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="Of the common card games in the "/>
+	<line type="normal" data="western world, 304 is most similar to"/>
+	<line type="normal" data="Contract Bridge, though it is more "/>
+	<line type="normal" data="intuitive and less tactical than"/>
+	<line type="normal" data="Bridge.  Four people are required "/>
+	<line type="normal" data="to play, and they are split into two"/>
+	<line type="normal" data="teams of two people each. "/>
+	<line type="empty" data="-"/>
+	<line type="title" data="Card Value and Precedence"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="304 uses a standard deck of cards "/>
+	<line type="normal" data="excluding the jokers and cards 2"/>
+	<line type="normal" data="through 6 in all suites.  So the 304 "/>
+	<line type="normal" data="playing deck consists of 32"/>
+	<line type="normal" data="cards, 7 through A in all suites.  "/>
+	<line type="normal" data="Each card in a suite has a defined"/>
+	<line type="normal" data="value (or points) as given below."/>
+	<line type="empty" data="-"/>
+	<line type="image" data="Points"/>
+	<line type="normal" data="0 , 0 , 3 , 5 , 10 , 11 , 20 , 30"/>
+	<line type="empty" data="-"/>
+	<line type="title" data="Bidding"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="When the dealer has dealt four "/>
+	<line type="normal" data="cards to each player, the bidding"/>
+	<line type="normal" data="process starts as described above."/>
+	<line type="normal" data="The person with the highest bid is"/>
+	<line type="normal" data="allowed to choose the suite that "/>
+	<line type="normal" data="would be the trump for that game."/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="In order to prevent a long bidding"/>
+	<line type="normal" data="cycle,G304 allows all players to"/>
+	<line type="normal" data="bid only once as a must."/>
+	<line type="empty" data="-"/>
+	<line type="title" data="The Trump"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="The trump is a suite chosen by"/>
+	<line type="normal" data="the player who had the highest bid."/>
+	<line type="normal" data="A card in the trump suite will beat "/>
+	<line type="normal" data="any card in any other suite, however"/>
+	<line type="normal" data="the trump may be played only if the "/>
+	<line type="normal" data="player does not have any cards in"/>
+	<line type="normal" data="the calling suite.  When a trump is "/>
+	<line type="normal" data="played to beat a card in a different "/>
+	<line type="normal" data="suite, that action is called 'cutting'."/>
+	<line type="normal" data=" If two players attempt to cut a given "/>
+	<line type="normal" data="card, the player who used the "/>
+	<line type="normal" data="higher valued trump card wins."/>
+	<line type="empty" data="-"/>
+	<line type="title" data="Game Play"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="The player to the immediate right of "/>
+	<line type="normal" data="the dealer starts the game play.  "/>
+	<line type="normal" data="Once he has played a card, play "/>
+	<line type="normal" data="proceeds in a counter clockwise"/>
+	<line type="normal" data="direction.  The next player has to "/>
+	<line type="normal" data="play a card in the same suite as"/>
+	<line type="normal" data="the first card (this suite is referred "/>
+	<line type="normal" data="to as the calling suite). Whoever "/>
+	<line type="normal" data="has the highest card in the calling "/>
+	<line type="normal" data="suite after all four players have played, "/>
+	<line type="normal" data="wins all the cards that were played."/>
+	<line type="empty" data="-"/>
+	<line type="title" data="Cutting"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="When a certain card is played on the "/>
+	<line type="normal" data="table if the next player does not have "/>
+	<line type="normal" data="a card of the same suite, he has two "/>
+	<line type="normal" data="options"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="he may attempt to cut"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="he may play some other card which"/>
+	<line type="normal" data=" is neither the calling suite nor a"/>
+	<line type="normal" data="trump"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="Unless this player is the trumper, "/>
+	<line type="normal" data="he would not know what the trump"/>
+	<line type="normal" data="is.  So he has to *guess* what the "/>
+	<line type="normal" data="trump might be. Once he has made a"/>
+	<line type="normal" data="guess, he has to pick a card from "/>
+	<line type="normal" data="his hand which belongs to the"/>
+	<line type="normal" data="guessed trump suite and play it.  "/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="Once a successful cut has been made "/>
+	<line type="normal" data="by any player, the trump suite is"/>
+	<line type="normal" data="known to all players.  At this point the"/>
+	<line type="normal" data=" trump is said to be 'open'. Once the "/>
+	<line type="normal" data="trump is open, cards should not be "/>
+	<line type="normal" data="played face down in any circumstances."/>
+	<line type="empty" data="-"/>
+	<line type="title" data="Deciding the result of a game"/>
+	<line type="empty" data="-"/>
+	<line type="normal" data="Once all eight tricks are played out, the "/>
+	<line type="normal" data="total points of all the cards won by the "/>
+	<line type="normal" data="trumper's team are calculated.  If this"/>
+	<line type="normal" data=" is found to be equal to or higher than"/>
+	<line type="normal" data=" the bid amount, the trumper's team is"/>
+	<line type="normal" data="declared the winner."/>
+	<line type="empty" data="-"/>
+	<line type="empty" data="-"/>	
+</Help>
